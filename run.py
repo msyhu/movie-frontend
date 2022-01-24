@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 import datetime, requests
 
 app = Flask(__name__)
-baseurl = 'http://172.30.5.139:30007/movies/name/'
+baseurl = 'http://172.17.0.1:62462/movies/name/'
 
 @app.route("/")
 def index():
